@@ -11,7 +11,10 @@ Script Purpose
 Parameters
   None
   This stored procedure does not accept any parameters or return any values.
-  
+
+Note : 
+	When bulking import the data, change FROM to your own datasets path  
+
 Usage Example
 EXEC bronze.load_bronze;
 
